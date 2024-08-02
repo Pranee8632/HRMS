@@ -1,0 +1,7 @@
+axios -> http req and res library
+
+
+In React Router, the Outlet component is used to render nested routes. It serves as a placeholder in your component hierarchy where the child routes will be displayed. This is especially useful for layouts where you have a common structure (like a sidebar, header, footer, etc.) and you want different content to be displayed in a specific section based on the current route.
+
+
+Even if you don't explicitly include the CSS file in every JSX file, as long as Bootstrap CSS is imported or included globally in your project (via index.html, index.js, App.js, etc.), the styles will be available to all components. This is why your components can still use Bootstrap classes without having to import the CSS file in each individual file.

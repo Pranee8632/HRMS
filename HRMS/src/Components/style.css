@@ -1,0 +1,160 @@
+.loginPage{
+    background: url('../images/LoginBackground_image.jpg');
+    background: linear-gradient(rgba(11,11,11,0.5),rgba(10,10,10,0.5)),url('../images/LoginBackground_image.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 120%;
+}
+
+.loginForm{
+    background-color: rgba(1,32,93,0.6);
+    color:white;
+}
+
+  
+
+.container-fluid {
+    display: flex;
+    height: 100vh;
+    overflow: hidden;
+    padding: 0;
+}
+  
+.sidebar {
+    flex: 0 0 200px; /* Sidebar takes up a fixed width */
+    background-color: #343a40;
+    overflow-y: auto; 
+    scrollbar-width:thin;
+}
+  
+.content {
+    flex: 1; /* Content takes up the remaining space */
+    overflow-y: auto; /* Enables vertical scrolling */
+}
+
+ul li :hover {
+    background-color:transparent;
+}
+
+ul li:hover {
+    background-color: rgba(187, 187, 187, 0.384);
+    border-radius: 5px;
+}
+  
+
+.heading{
+    margin-top:25px;
+    margin-bottom: 30px;
+}
+
+/* style.css */
+.butn {
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+    display: inline-block;
+    margin: 5px;
+    border-radius: 10px;
+    color: grey;
+}
+
+
+
+.butn-success {
+    background-color: rgb(48, 158, 195);
+    color: white;
+}
+
+.butn-outline-success {
+    background-color: transparent;
+    color: grey;
+}
+
+.butn:hover,
+.butn-outline-success:hover {
+    background-color: rgb(48, 158, 195);
+    color: white;
+
+}
+
+.heading h3 {
+    margin: 0;
+}
+
+.light{
+    background-color:rgb(48, 158, 195);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+    display: inline-block;
+    margin: 5px;
+    border-radius: 10px;
+}
+
+.light:hover{
+    border:2px solid rgb(35, 97, 118);
+}
+  
+
+.dark{
+    background-color:rgb(128, 121, 121);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+    display: inline-block;
+    margin: 5px;
+    border-radius: 10px;
+}
+
+.dark:hover{
+    border:2px solid rgb(62, 62, 62);
+}
+
+
+.emp_det_image,.employee_img{
+    width:40px;
+    height:40px;
+    border-radius: 50%;
+}
+
+.charts {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    margin-top: 60px;
+    height: 300px;
+  }
+
+
+/* calendarStyles.css */
+
+/* Style for event titles */
+.fc .fc-event-title {
+    color: black !important; /* Set font color to black */
+    text-decoration: none !important; /* Remove underlines */
+  }
+  
+  /* Style for day numbers */
+  .fc .fc-daygrid-day-number {
+    color: black !important; /* Set font color to black */
+    text-decoration: none !important; /* Remove underlines */
+  }
+  
+  /* Ensure no other elements have text-decoration */
+  .fc .fc-daygrid-day-frame, 
+  .fc .fc-daygrid-day-top, 
+  .fc .fc-daygrid-day-bottom {
+    color: black !important; /* Set font color to black */
+    text-decoration: none !important; /* Remove underlines */
+  }
+  
+  /* Style for day names in the header */
+  .fc .fc-col-header-cell-cushion {
+    color: black !important; /* Set font color to black */
+  }
+  

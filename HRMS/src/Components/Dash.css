@@ -1,0 +1,210 @@
+.tooltip {
+    position: relative;
+    display: inline-block;
+  }
+
+  .tooltip .tooltip-text {
+    visibility: hidden;
+    width: 300px; /* Adjust as needed */
+    background-color: #333;
+    color: #fff;
+    text-align: left;
+    padding: 10px;
+    border-radius: 5px;
+    position: absolute;
+    z-index: 1;
+    top: 125%; /* Position below the icon */
+    left: 50%;
+    margin-left: -30px; /* Center the tooltip */
+    opacity: 0;
+    transition: opacity 0.3s, top 0.3s;
+    display: flex;
+    flex-direction: column; /* Arrange items vertically */
+    gap: 10px; /* Space between items */
+  }
+
+  .tooltip .tooltip-text::after {
+    content: "";
+    position: absolute;
+    top: -5px; /* Arrow position */
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: transparent transparent #333 transparent; /* Arrow pointing down */
+  }
+
+  .tooltip:hover .tooltip-text {
+    visibility: visible;
+    opacity: 1;
+    top: 150%; /* Slightly below the icon */
+  }
+
+  .tooltip .tooltip-item {
+    display: flex;
+    align-items: center;
+    gap: 10px; /* Space between text and image */
+    cursor: pointer; /* Change cursor to indicate it's interactive */
+  }
+
+  .tooltip .tooltip-item img {
+    width: 40px; /* Adjust size as needed */
+    height: 30px;
+    /* display: none;  */
+  }
+
+  .tooltip .tooltip-item:hover img {
+    display: inline; /* Show image on hover */
+  }
+
+  /* Styling for the icon */
+  .tooltip i {
+    font-size: 1.5rem;
+    transition: color 0.3s, transform 0.3s;
+  }
+
+  .tooltip i:hover {
+    color: #007bff;
+    transform: scale(1.1);
+  }
+
+  /* Existing styles */
+  .nav {
+    height: 50px;
+    background-color: antiquewhite;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .nav1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 400px;
+  }
+
+  .nav-ph {
+    width: 130px;
+    height: 30px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 10px;
+    padding: 5px;
+    transition: background-color 0.3s, box-shadow 0.3s;
+  }
+
+  .nav-ph:hover {
+    background-color: #f0f0f0;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  }
+
+  .add-icon {
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    transition: color 0.3s, transform 0.3s;
+  }
+
+  .add-icon:hover {
+    color: #007bff;
+    transform: scale(1.1);
+  }
+
+  .nav2 {
+    display: flex;
+    margin-left: 700px;
+    align-items: center;
+    width: 300px;
+  }
+
+  .nav1 i {
+    font-size: 1.5rem;
+    transition: color 0.3s, transform 0.3s;
+  }
+
+  .nav1 i:hover {
+    color: #007bff;
+    transform: scale(1.1);
+  }
+
+  .nav2 i {
+    font-size: 1.5rem;
+    transition: color 0.3s, transform 0.3s;
+  }
+
+  .nav2 i:hover {
+    color: #007bff;
+    transform: scale(1.1);
+  }
+
+  .tooltipp {
+    position: relative;
+    display: inline-block;
+  }
+
+  .tooltipp .tooltip-textt {
+    visibility: hidden;
+    width: 200px; /* Adjust as needed */
+    background-color: #333;
+    color: #fff;
+    text-align: left;
+    padding: 10px;
+    border-radius: 5px;
+    position: absolute;
+    z-index: 1;
+    top: 125%; /* Position below the icon */
+    left: 50%;
+    margin-left: -30px; /* Center the tooltip */
+    opacity: 0;
+    transition: opacity 0.3s, top 0.3s;
+    display: flex;
+    flex-direction: column; /* Arrange items vertically */
+    gap: 10px; /* Space between items */
+  }
+
+  .tooltipp .tooltip-textt::after {
+    content: "";
+    position: absolute;
+    top: -5px; /* Arrow position */
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: transparent transparent #333 transparent; /* Arrow pointing down */
+  }
+
+  .tooltipp:hover .tooltip-textt {
+    visibility: visible;
+    opacity: 1;
+    top: 150%; /* Slightly below the icon */
+  }
+
+  .tooltipp .tooltip-item {
+    display: flex;
+    align-items: center;
+    gap: 10px; /* Space between text and image */
+    cursor: pointer; /* Change cursor to indicate it's interactive */
+  }
+
+  .tooltipp .tooltip-item img {
+    width: 40px; /* Adjust size as needed */
+    height: 30px;
+    /* display: none;  */
+  }
+
+  .tooltipp .tooltip-item:hover img {
+    display: inline; /* Show image on hover */
+  }
+
+  /* Styling for the icon */
+  .tooltipp i {
+    font-size: 1.5rem;
+    transition: color 0.3s, transform 0.3s;
+  }
+
+  .tooltipp i:hover {
+    color: #007bff;
+    transform: scale(1.1);
+  }
